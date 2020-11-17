@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width = device-width, initial-scale=1.0" name="viewport">
+    <title>Турагенство</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full&lazy=true"></script>
+    <script charset="utf-8" src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <h1 class="header_text">Карта</h1>
+    <div class="fon_header">
+        <img alt="kam" src="img/header.jpg">
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="main-top">
+
+            <div class="login">
+                <form action="" name="reg">
+                    <p>Поиск</p>
+                    <p><input id="city" name="city" placeholder="Поиск адреса" type="text"></p>
+
+                </form>
+                <button name="search" onclick="Search()">Поиск</button>
+            </div>
+
+        </div>
+        <div class="main-middle">
+
+            <div class="maps" id="map"></div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <i class="right">All right reserved &#169; 2020</i>
+    </div>
+</footer>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

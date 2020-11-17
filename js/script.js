@@ -3,7 +3,7 @@ $(document).ready(function () {
         $("#city").val(YMaps.location.city)
             let sity = document.reg.city.value;
             let xmlRequest = new XMLHttpRequest();
-            xmlRequest.open("GET", "http://search.maps.sputnik.ru/search?q=" + sity);
+            xmlRequest.open("GET", "https://search.maps.sputnik.ru/search?q=" + sity);
             xmlRequest.send();
             xmlRequest.onload = function () {
                 let i = JSON.parse(xmlRequest.responseText);

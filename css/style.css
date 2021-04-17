@@ -1075,6 +1075,7 @@ h3 {
     font-size: 0.6em;
     line-height: 2em;
     color: #3A4047;
+    visibility: hidden;
 }
 
 @media (max-width: 767px) {
@@ -1090,7 +1091,6 @@ h3 {
 
 .razrabotka img {
     padding-right: 1em;
-    visibility: hidden;
 }
 
 

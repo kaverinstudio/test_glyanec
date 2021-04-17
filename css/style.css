@@ -1090,6 +1090,7 @@ h3 {
 
 .razrabotka img {
     padding-right: 1em;
+    visibility: hidden;
 }
 
 
